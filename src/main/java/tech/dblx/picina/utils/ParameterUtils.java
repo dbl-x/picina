@@ -18,7 +18,7 @@ package tech.dblx.picina.utils;
 /**
  * Verify the input parameters.
  *
- * @author linxin (dblx.lin@gmail.com) 2018-07-10 20:54
+ * @author linxin (dblx.lin@gmail.com)
  */
 public final class ParameterUtils {
 

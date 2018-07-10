@@ -20,7 +20,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * Serialization tools base Fastjson.
  *
- * @author linxin (dblx.lin@gmail.com) 2018-07-10 20:45
+ * @author linxin (dblx.lin@gmail.com)
  */
 public final class JsonUtils {
 

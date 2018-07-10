@@ -18,7 +18,7 @@ package tech.dblx.picina.utils;
 /**
  * String utils.
  *
- * @author linxin (dblx.lin@gmail.com) 2018-07-10 21:01
+ * @author linxin (dblx.lin@gmail.com)
  */
 public final class StringUtils {
 

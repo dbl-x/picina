@@ -18,5 +18,5 @@ package tech.dblx.picina;
 /**
  * @author linxin (dblx.lin@gmail.com)
  */
-public class Test {
+public class ServerBootstrap {
 }
