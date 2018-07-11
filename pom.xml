@@ -28,6 +28,7 @@
     <properties>
         <netty.version>4.1.25.Final</netty.version>
         <fastjson.version>1.2.47</fastjson.version>
+        <file.encoding>UTF-8</file.encoding>
     </properties>
 
     <dependencies>
@@ -104,6 +105,21 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.googlecode.maven-java-formatter-plugin</groupId>
+                <artifactId>maven-java-formatter-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>format</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <configFile>CodeFormatter.xml</configFile>
+                    <encoding>${file.encoding}</encoding>
+                </configuration>
             </plugin>
         </plugins>
 
